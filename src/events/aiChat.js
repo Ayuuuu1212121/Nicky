@@ -1,6 +1,6 @@
 import { Events } from 'discord.js';
 import { generateAIResponse } from '../services/aiService.js';
-
+console.log('🤖 AI CHAT EVENT FILE LOADED');
 export default {
     name: Events.MessageCreate,
     once: false,
