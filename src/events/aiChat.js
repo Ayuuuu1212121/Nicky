@@ -1,4 +1,3 @@
-```js
 import { Events } from 'discord.js';
 import { generateAIResponse } from '../services/aiService.js';
 
@@ -59,4 +58,3 @@ export default {
         }
     },
 };
-```
